@@ -1,0 +1,86 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+  text-align: center;
+}
+.navbar{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  display:flex;
+  height:15%;
+  width:100%;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+#home{
+  border-radius: 2px;
+  padding: 10px;
+  color:black;
+  background-color: white;
+}
+#other:hover{
+  border-radius: 2px;
+  padding: 10px;
+  color:black;
+  background-color: white;
+}
+h3{
+  font-size: 32px;
+  padding: 10px;
+  margin: 0;
+}
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  margin:10px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bottom{
+  height:85%;
+  background-image: url('https://img.freepik.com/premium-photo/painting-beautiful-autumn-forest-illustration_37402-729.jpg?w=2000');
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

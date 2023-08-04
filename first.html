@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>   
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+
+    </div>
+    <script>
+        const heading = React.createElement("h1",{
+            id:"title",
+            style:{textAlign:"left",fontSize:"32"}
+        },"Topics covered")
+        const para = React.createElement("p",{
+            style:{textAlign:"left"}},
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed accusantium veniam voluptatibus");
+        
+        const p1 = React.createElement("a",{
+           href:"#",
+           style:{textAlign:"left"}},
+            "Getting started with the web");
+        
+        const p2 = React.createElement("p",{
+        href:"#",
+        style:{textAlign:"left"}},
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed accusantium venia");
+
+        const p3 = React.createElement("a",{
+        href:"#",
+        style:{textAlign:"left"}},
+        "Html structure the web");
+        
+        const p4 = React.createElement("p",{
+            style:{textAlign:"left"}
+        },"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed accusantium venia")
+
+        const p5 = React.createElement("a",{
+        href:"#",
+        style:{textAlign:"left"}},
+        "Css Styling the web");
+        
+        const p6 = React.createElement("p",{
+            style:{textAlign:"left"}
+        },"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed accusantium venia")
+
+        const root = ReactDOM.createRoot(document.getElementById("root"))
+        root.render([heading,para,p1,p2,p3,p4,p5,p6]);
+        </script>
+</body>
+</html>
